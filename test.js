@@ -73,5 +73,3 @@ const statement = invoice => {
     result += `Вы заработали ${volumeCredits} бонусов\n`;
     return result;
 };
-  
- console.log(statement(inv))
